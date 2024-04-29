@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "sent":"Jake",
+      "subject": "Hi Again",
+      "content": "Just wanted to check on you",
+      "isRead": true
+    },
+    {
+      "id": 2,
+      "sent":"Mikel",
+      "subject": "Hi Friend",
+      "content": "Just wanted to let you know I'm good",
+      "isRead": false
+    },
+    {
+        "id": 3,
+        "sent":"David",
+        "subject": "Where are you",
+        "content": "I am waiting for you",
+        "isRead": false
+      },
+      {
+        "id": 4,
+        "sent":"Tom",
+        "subject": "How is your day",
+        "content": "I want to know how was your day",
+        "isRead": false
+      },
+      {
+        "id": 5,
+        "sent":"Leo",
+        "subject": "What is the problem ",
+        "content": "Just wanted to know what is the problem",
+        "isRead": false
+      }
+  ]
