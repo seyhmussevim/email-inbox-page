@@ -1,5 +1,4 @@
 'use client'
-// Home.jsx
 
 import React, { useState, useEffect } from 'react';
 import RootLayout from './layout';
@@ -47,6 +46,7 @@ export default function Home() {
         </div>
         <div className="w-2/3 p-4">
           <MessageList
+          messages={messages}
             setSelectedMessageId={setSelectedMessageId}
             markMessageAsRead={markMessageAsRead}
             updateUnreadCount={updateUnreadCount}

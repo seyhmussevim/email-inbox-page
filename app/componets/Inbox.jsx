@@ -1,4 +1,4 @@
-// Inbox.jsx
+
 
 import React from "react";
 import Mail from "../svg/Mail.jsx"
