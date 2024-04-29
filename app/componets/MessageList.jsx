@@ -73,6 +73,7 @@ const MessageList = ({ updateUnreadCount, markMessageAsReadAndNotifyInbox }) => 
       </div>
       <div className="w-1/4 p-4 rounded-md" style={{ transition: 'width 0.5s', backgroundColor: 'whitesmoke', minWidth: '300px', maxWidth: '500px' }}>
         {selectedMessageId && <Notifications id={selectedMessageId} />}
+        
       </div>
     </div>
   );
